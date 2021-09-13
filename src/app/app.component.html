@@ -1,0 +1,19 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">position</th>
+      <th scope="col">name</th>
+      <th scope="col">weight</th>
+      <th scope="col">symbol</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr *ngFor="let app of data">
+      <td>{{app.position}}</td>
+      <td>{{app.name}}</td>
+      <td>{{app.weight}}</td>
+      <td>{{app.symbol}}</td>
+    </tr>
+  
+</table>
